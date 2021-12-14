@@ -8,16 +8,17 @@
 </head>
 <body style="padding: 50px;">
     <table style="border-collapse: collapse; width: 30%; text-align: center;">
-        <tr  ><tr> 
+         
             <tr style="background-color: brown ;">
                 <th rowspan="2"  style=" border: 1px solid black;">thứ</th>
-                <th colspan="2" style=" border: 1px solid black;">hoạt động</th>
-                <tr style="background-color: brown ;">
+                <th colspan="2" style=" border: 1px solid black;">hoạt động</th> 
+            </tr>
+            <tr style="background-color: brown ;">
                     <th style=" border: 1px solid black;">sáng</th>
                     <th style=" border: 1px solid black;">chiều</th>
-                </tr>
             </tr>
-        </tr>
+           
+        
         <tr>
             <td style=" border: 1px solid black;">thứ hai</td>
             <td style=" border: 1px solid black;">thể dục</td>
