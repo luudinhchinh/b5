@@ -1,75 +1,153 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@luudinhchinh 
+TrinhDucDung
+/
+bancovua
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+bancovua/lichthang.html
+@TrinhDucDung
+TrinhDucDung lan thu 3
+Latest commit 6362128 4 hours ago
+ History
+ 1 contributor
+113 lines (113 sloc)  3.22 KB
+   
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>btFORM2</title>
     <style>
-        caption {
-            text-align: left;
-            color: blue;
-            background-color: cornflowerblue;
-        }
-        .trai {
-            color: darkblue;
-            float: left;
-        }
-       
         table {
-            background: rgb(221, 223, 109);
-           
+            width: 100%;
+            table-layout: fixed;
+            display: table;
+            text-align: center;
         }
-        
+        .thu {
+            color: #fff;
+            background: #FFB228;
+        }
+        .cn {
+            color: #fff;
+            background: #FF2A1A;
+        }
+        .tbay {
+            color: #fff;
+            background: #103FFB;
+        }
+        .caption {
+            color: #103FFB;
+        }
+        .cot1 {
+            color:#FF2A1A ;
+        }
+        .nhoden {
+            color: #000;
+        }
+        .content td {
+            border: 1px solid black;
+        }
     </style>
+    <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <table>
-           <caption>đăng ký học viên</caption>
-           <tr>
-               <td class="trai">họ và tên</td>
-               <td><input type="text" size="25"></td>
-           </tr>
-           <tr>
-               <td class="trai">ngày sinh</td>
-               <td><input type="text" size="20"></td>
-           </tr>
-           <tr>
-               <td class="trai">giới tính</td>
-               <td><input type="radio">nam 
-                    <input type="radio">nữ</td>
-           </tr>
-           <tr>
-               <td class="trai">địa chỉ</td>
-               <td > <textarea name="" id="" cols="30" rows="5"></textarea></td>
-           </tr>
-           <tr>
-               <td class="trai">lớp</td>
-               <td>
-                   <select name="" id="">
-                       <option value="">--chọn lớp--</option>
-                       <option value="12/1"></option>
-                   </select>
-               </td>
-           </tr>
-           <tr>
-               <td class="trai">email</td>
-               <td><input type="text"></td>
-           </tr>
-           <tr>
-               <td class="trai">điện thoại</td>
-               <td><input type="text"></td>
-           </tr>
-           <tr>
-               <td></td>
-               <td>
-                   <button>đăng ký</button>
-                   <button>nhập lại</button>
-               </td>
-           </tr>
-        </table>
-    </form>
-    
+    <table>
+        <tr>
+            <th colspan="7" class="caption">Tháng 10 - October</th>
+        </tr>
+        <tr>
+            <td class="cn">C.Nhật</td>
+            <td class="thu">T.Hai</td>
+            <td class="thu">T.Ba</td>
+            <td class="thu">T.Tư</td>
+            <td class="thu">T.Năm</td>
+            <td class="thu">T.Sáu</td>
+            <td class="tbay">T.Bảy</td>
+        </tr>
+        <tr>
+            <td class="cot1">Sun</td>
+            <td>Mon</td>
+            <td>Tue</td>
+            <td>Wed</td>
+            <td>Thu</td>
+            <td>Fri</td>
+            <td class="caption">Sat</td>
+        </tr>
+    </table>
+    <table>
+        <tr class="content">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1<sub>13</sub></td>
+            <td>2<sub>14</sub></td>
+            <td class="caption">3<sub class="nhoden">15</sub></td>
+        </tr>
+        <tr class="content">
+            <td class="cot1">4<sub  class="nhoden">16</sub></td>
+            <td>5<sub>17</sub></td>
+            <td>6<sub>18</sub></td>
+            <td>7<sub>19</sub></td>
+            <td>8<sub>20</sub></td>
+            <td>9<sub>21</sub></td>
+            <td class="caption">10<sub  class="nhoden">22</sub></td>
+        </tr>
+        <tr class="content">
+            <td class="cot1">11<sub class="nhoden">23</sub></td>
+            <td>12<sub>24</sub></td>
+            <td>13<sub>25</sub></td>
+            <td>14<sub>26</sub></td>
+            <td>15<sub>27</sub></td>
+            <td>16<sub>28</sub></td>
+            <td class="caption">17<sub class="nhoden">29</sub></td>
+        </tr>
+        <tr class="content">
+            <td class="cot1">18<sub class="nhoden">1.9</sub></td>
+            <td>19<sub>2</sub></td>
+            <td>20<sub>3</sub></td>
+            <td>21<sub>4</sub></td>
+            <td>22<sub>5</sub></td>
+            <td>23<sub>6</sub></td>
+            <td class="caption">24<sub class="nhoden">7</sub></td>
+        </tr>
+        <tr class="content">
+            <td class="cot1">25<sub class="nhoden">8</sub></td>
+            <td>26<sub>9</sub></td>
+            <td>27<sub>10</sub></td>
+            <td>28<sub>11</sub></td>
+            <td>29<sub>12</sub></td>
+            <td>30<sub>13</sub></td>
+            <td class="caption">31<sub class="nhoden">14</sub></td>
+        </tr>
+    </table>
 </body>
 </html>
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
